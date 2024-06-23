@@ -1,0 +1,16 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "start": "concurrently \"npm run server\"  \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ABHIRAJ T R",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
